@@ -10,7 +10,7 @@ package catolica.n2;
  */
 public class ProvaUCB extends ProvaUniversidade {
     
-    public ProvaUCB(int notaAV1, int notaAV2) {
+    public ProvaUCB(float notaAV1, float notaAV2) {
         super(notaAV1, notaAV2);
     }
     

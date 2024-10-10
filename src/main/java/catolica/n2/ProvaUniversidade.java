@@ -9,23 +9,23 @@ package catolica.n2;
  * @author joao.pneto
  */
 public class ProvaUniversidade {
-    int notaAV1;
-    int notaAV2;
+    float notaAV1;
+    float notaAV2;
     
-    public ProvaUniversidade(int notaAV1, int notaAV2){
+    public ProvaUniversidade(float notaAV1, float notaAV2){
         this.notaAV1 = notaAV1;
         this.notaAV2 = notaAV2;
     }
 
-    public int getNotaAV1() {
+    public float getNotaAV1() {
         return notaAV1;
     }
 
-    public int getNotaAV2() {
+    public float getNotaAV2() {
         return notaAV2;
     }
     
-    public int calcularMedia(){
-        return (this.notaAV1+this.notaAV2)/2;
+    public float calcularMedia(){
+        return (notaAV1+notaAV2)/2;
     }
 }
